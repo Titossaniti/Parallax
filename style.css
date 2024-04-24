@@ -1,0 +1,358 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+}
+main{
+    line-height: 22px;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+nav p{
+    margin-top: 0;
+}
+header{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+nav div{
+    display: flex;
+    flex-direction: row;
+}
+nav div p{
+    padding: 10px 10px;
+}
+
+nav div p:hover{
+    background-color: rgba(128, 128, 128, 0.65);
+}
+nav :nth-child(2) p:hover{
+    background-color: rgba(255, 15, 15, 0.65);
+    color: #f0f0f0;
+}
+nav div:first-child p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h1{
+    background: #111213;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 4px 6px;
+    width: 25%;
+    height: 5%;
+    align-self: center;
+    margin-top: 43vh;
+    letter-spacing: 8px;
+}
+nav div p i{
+    padding: 0 4px
+}
+.parallax {
+    background-image: url("parallax1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    width: 49%;
+    margin: 30px auto;
+}
+.about div{
+    margin: 20px;
+    width: 50%;
+}
+.about div img{
+    width: 100%;
+    opacity:0.5;
+}
+.about div img:hover{
+    opacity: 1;
+}
+.about p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin: 30px auto;
+    color: #777777;
+    font-weight: normal
+}
+.lovephoto{
+       font-style: italic;
+    text-align: center;
+}
+.lovephoto-text{
+    width: 50%;
+    margin: 20px auto;
+}
+.text-aboutme p{
+    text-align: start;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: #777777;
+    line-height: 27px;
+}
+.myname{
+    margin-bottom: 30px;
+    color: #777777;
+    font-size: 15px;
+    font-weight: bold;
+}
+h3{
+    text-align: center;
+    font-weight: normal;
+    color: #777777;
+}
+.good-at{
+    width: 50%;
+    margin: 20px auto;
+    color: #777777;
+}
+.percent-bar{
+    width: 100%;
+    height: 35px;
+    margin: 20px auto;
+    background-color: #F1F1F1;
+}
+.percent1{
+    width: 90%;
+    height: 100%;
+    background-color: #616161;
+}
+.percent2{
+    width: 85%;
+    height: 100%;
+    background-color: #616161;
+}
+.percent3{
+    width: 75%;
+    height: 100%;
+    background-color: #616161;
+}
+.good-at p{
+    letter-spacing: 10px;
+}
+.good-at div{
+    color: #f0f0f0;
+    text-align: center;
+    display:flex;
+    align-items: center;
+}
+.good-at div div p{
+    margin: 0 auto;
+    letter-spacing: 0;
+}
+.infos{
+    background-color: #616161;
+    color: #f0f0f0;
+    height: 135px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 65px;
+}
+.infos div p{
+    font-size: 24px;
+}
+.infos div :nth-child(2){
+    font-size: 15px;
+    margin-top: 10px;
+}
+.parallax2{
+    height: 400px;
+    background-image: url("parallax2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parallax2 p, .parallax3 p{
+    font-size: 36px;
+    letter-spacing: 10px;
+    color: #f0f0f0;
+}
+.text-work P{
+    color: #777777;
+    font-style: italic;
+    text-align: center;
+    margin: 10px auto;
+}
+.work-img{
+    width: 50%;
+    margin: 60px auto;
+}
+.img-line{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img-line div{
+    padding: 7px 9px;
+}
+.img-line img{
+    width: 100%;
+    height: auto;
+}
+.img-line img:hover{
+    opacity: 0.7;
+}
+.load-more{
+    width: 6%;
+    margin: 60px auto;
+    padding: 10px 20px;
+    background-color: #F1F1F1;
+    font-size: 15px;
+    text-align: center;
+}
+.load-more:hover{
+    background-color: #CCCCCC;
+}
+.parallax3{
+    height: 400px;
+    background-image: url("parallax3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    color: #777777;
+}
+.feedback{
+    font-style: italic;
+    color: #777777;
+    font-size: 15px;
+    text-align: center;
+    margin: 30px auto;
+}
+.map{
+    width: 33%;
+    height: 180px;
+}
+.map img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.adress{
+    width: 77%;
+    margin-left:30px;
+}
+.adress i{
+    padding: 0 16px;
+    font-size: 20px;
+}
+.adress :nth-child(4){
+    font-size: 15px;
+}
+.adress-info{
+    height: 180px;
+    padding: 0 10px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+form div{
+    display: flex;
+    justify-content: space-between;
+}
+.name-mail{
+    width: 100%;
+}
+.name, .mail{
+    width: 49%;
+}
+input{
+    width:100%;
+    height: 30px;
+    padding: 8px;
+    border: solid 1px #CCCCCC ;
+    font-size: 18px;
+}
+#message{
+    width: 100%;
+    margin-top: 12px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    border: 0;
+    background-color: #111213;
+    color: #f0f0f0;
+    width: 28%;
+    padding: 8px 10px;
+    font-size: 15px;
+    align-self: end;
+    margin: 10px 10px 0 0;
+}
+footer{
+    background-color: #666666;
+    height: 290px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    color: #f0f0f0;
+}
+footer:hover{
+    background-color: #111213;
+}
+.to-top{
+    background-color: #F7F7F7;
+    width: 8%;
+    padding: 8px 4px;
+    color: #666666;
+    margin: 65px auto 20px auto;
+}
+.to-top:hover{
+    background-color: #CCCCCC;
+    color: #111213;
+}
+.socials{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+footer:hover .to-top{
+    color: #111213;
+}
+.socials i:hover{
+    color: #666666;
+}
+footer a{
+    color: #f0f0f0;
+}
